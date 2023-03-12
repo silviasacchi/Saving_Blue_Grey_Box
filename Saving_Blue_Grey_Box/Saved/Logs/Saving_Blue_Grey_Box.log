@@ -2213,3 +2213,477 @@ Recommended: 516.25
 [2023.03.12-20.27.22:095][ 38]MaterialEditorStats: Texture samplers: 3/16
 [2023.03.12-20.27.22:095][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
 [2023.03.12-20.27.22:095][ 38]MaterialEditorStats: Shader Count: 16
+[2023.03.12-20.29.00:395][547]LogSlate: Window 'Swan' being destroyed
+[2023.03.12-20.29.00:405][547]LogSlate: Window 'Swan' being destroyed
+[2023.03.12-20.29.00:413][547]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-20.29.00:414][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-20.29.14:009][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.03.12-20.29.14:010][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.03.12-20.29.14:011][178]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_16
+[2023.03.12-20.29.14:011][178]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_16
+[2023.03.12-20.29.44:447][969]Cmd: EDIT COPY
+[2023.03.12-20.29.46:531][ 94]Cmd: EDIT PASTE
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Total job queries 656, among them cache hits 98 (14.94%)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Tracking 556 distinct input hashes that result in 298 distinct outputs (53.60%)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: RAM used: 3.61 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.22%
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Shaders Compiled: 447
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Jobs assigned 449, completed 447 (99.55%)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Average time worker was idle: 187.31 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 5.65 s, longest 22.77 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Job execution time: average 3.58 s, max 8.44 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 9.25 s, max 23.39
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 59.04 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Jobs were issued in 258 batches (only local compilation was used), average 1.74 jobs/batch
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Average processing rate: 7.57 jobs/sec
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Total thread time: 310.92 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Total thread preprocess time: 19.92 s
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Percentage time preprocessing: 6.41%
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Effective parallelization: 5.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 0.93 sec, max 1.04 sec, min 0.82 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.91 sec, max 1.00 sec, min 0.85 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.98% of total time (compiled   52 times, average 0.84 sec, max 1.29 sec, min 0.48 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.20% of total time (compiled   52 times, average 0.79 sec, max 1.09 sec, min 0.46 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.58% of total time (compiled   49 times, average 0.67 sec, max 0.98 sec, min 0.41 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.27% of total time (compiled   31 times, average 0.83 sec, max 1.29 sec, min 0.31 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.67% of total time (compiled   49 times, average 0.49 sec, max 0.76 sec, min 0.27 sec)
+[2023.03.12-20.30.02:346][ 11]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.30.04:107][117]Cmd: EDIT COPY
+[2023.03.12-20.30.05:108][177]Cmd: EDIT CUT
+[2023.03.12-20.30.05:132][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.12-20.30.05:146][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.12-20.30.05:150][177]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2023.03.12-20.30.19:513][ 31]Cmd: EDIT COPY
+[2023.03.12-20.30.20:463][ 88]Cmd: EDIT PASTE
+[2023.03.12-20.30.27:318][493]Cmd: EDIT COPY
+[2023.03.12-20.30.28:085][539]Cmd: EDIT PASTE
+[2023.03.12-20.30.35:703][982]Cmd: EDIT COPY
+[2023.03.12-20.30.35:714][982]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.03.12-20.30.36:703][ 41]Cmd: EDIT PASTE
+[2023.03.12-20.30.55:725][171]Cmd: EDIT COPY
+[2023.03.12-20.30.56:428][213]Cmd: EDIT PASTE
+[2023.03.12-20.31.09:795][  2]Cmd: EDIT COPY
+[2023.03.12-20.31.10:422][ 39]Cmd: EDIT PASTE
+[2023.03.12-20.31.31:916][283]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_6 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.31:953][283]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_5 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.31:965][283]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_9 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.31:971][283]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_10 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.48:889][959]Cmd: TRANSACTION UNDO
+[2023.03.12-20.31.48:889][959]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2023.03.12-20.31.49:137][959]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_26 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.49:139][959]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_25 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.49:141][959]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.49:143][959]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.54:378][237]Cmd: TRANSACTION UNDO
+[2023.03.12-20.31.54:378][237]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2023.03.12-20.31.54:627][237]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_26 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.54:630][237]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.31.54:632][237]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.19:886][638]Cmd: TRANSACTION UNDO
+[2023.03.12-20.32.19:886][638]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2023.03.12-20.32.20:029][638]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.20:031][638]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:173][343]Cmd: TRANSACTION UNDO
+[2023.03.12-20.32.39:173][343]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2023.03.12-20.32.39:414][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_26 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:417][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_25 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:418][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:422][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:422][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_9 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:425][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_6 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:427][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_5 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.32.39:428][343]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_10 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.33.21:346][382]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.12-20.33.21:354][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.12-20.33.21:354][382]PIE: New page: PIE session: Level_1 (12 Mar 2023, 20:33:21)
+[2023.03.12-20.33.21:354][382]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2023.03.12-20.33.21:470][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114826s)
+[2023.03.12-20.33.21:470][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.114865s)
+[2023.03.12-20.33.21:470][382]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.12-20.33.21:470][382]LogAIModule: Creating AISystem for world Level_1
+[2023.03.12-20.33.21:470][382]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2023.03.12-20.33.21:481][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.12-20.33.21:485][382]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.12-20.33.21:485][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.12-20.33.21:485][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.12-20.33.21:485][382]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.12-20.33.21:485][382]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.12-20.33.21:485][382]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.12-20.33.21:489][382]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.12-20.33.21:626][382]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.12-20.33.21:626][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.12-20.33.21:626][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.12-20.33.21:626][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.12-20.33.21:626][382]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.03.12-20.33.21:626][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.03.12-20.33.21:628][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.03.12-20.33.21:628][382]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.03.12-20.33.21:628][382]LogInit: FAudioDevice initialized.
+[2023.03.12-20.33.21:628][382]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level_1'.
+[2023.03.12-20.33.21:632][382]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.03.12-20.33.21:653][382]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2023.03.12-20.33.21
+[2023.03.12-20.33.21:653][382]LogWorld: Bringing up level for play took: 0.021909
+[2023.03.12-20.33.21:655][382]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.03.12-20.33.21:660][382]PIE: Server logged in
+[2023.03.12-20.33.21:661][382]PIE: Play in editor total start time 0.306 seconds.
+[2023.03.12-20.33.58:647][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-20.33.58:647][582]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_1
+[2023.03.12-20.33.58:647][582]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-20.33.58:654][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-20.33.58:660][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.12-20.33.58:663][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-20.33.58:673][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-20.33.58:683][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.03.12-20.33.58:684][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.03.12-20.33.58:711][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.12-20.33.58:746][583]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.03.12-20.34.26:209][944]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.03.12-20.34.26:221][944]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.03.12-20.34.26:232][945]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.03.12-20.34.35:398][495]LogContentBrowser: Attempting asset rename: NewMaterial -> GoodFood
+[2023.03.12-20.34.35:401][495]LogContentBrowser: End creating deferred item NewMaterial
+[2023.03.12-20.34.36:244][542]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/GoodFood.GoodFood
+[2023.03.12-20.34.36:248][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.12-20.34.36:403][542]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.36:403][542]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.36:403][542]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.34.36:409][542]LogViewport: Scene viewport resized to 389x306, mode Windowed.
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Total job queries 660, among them cache hits 98 (14.85%)
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Tracking 559 distinct input hashes that result in 300 distinct outputs (53.67%)
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: RAM used: 3.63 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.22%
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Shaders Compiled: 450
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Jobs assigned 453, completed 450 (99.34%)
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Average time worker was idle: 188.68 s
+[2023.03.12-20.34.37:484][579]LogShaderCompilers: Display: Time job spent in pending queue: average 5.60 s, longest 22.77 s
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Job execution time: average 3.56 s, max 8.44 s
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Job life time (pending + execution): average 9.20 s, max 23.39
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 60.28 s
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Jobs were issued in 262 batches (only local compilation was used), average 1.73 jobs/batch
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Average processing rate: 7.46 jobs/sec
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Total thread time: 312.94 s
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Total thread preprocess time: 20.06 s
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Percentage time preprocessing: 6.41%
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Effective parallelization: 5.19 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 0.93 sec, max 1.04 sec, min 0.82 sec)
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.91 sec, max 1.00 sec, min 0.85 sec)
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-20.34.37:485][579]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.14% of total time (compiled   53 times, average 0.83 sec, max 1.29 sec, min 0.48 sec)
+[2023.03.12-20.34.37:486][579]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.32% of total time (compiled   53 times, average 0.79 sec, max 1.09 sec, min 0.46 sec)
+[2023.03.12-20.34.37:486][579]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.51% of total time (compiled   49 times, average 0.67 sec, max 0.98 sec, min 0.41 sec)
+[2023.03.12-20.34.37:486][579]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.21% of total time (compiled   31 times, average 0.83 sec, max 1.29 sec, min 0.31 sec)
+[2023.03.12-20.34.37:486][579]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.82% of total time (compiled   50 times, average 0.49 sec, max 0.76 sec, min 0.27 sec)
+[2023.03.12-20.34.37:486][579]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.34.37:814][590]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.37:815][590]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.37:815][590]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.37:815][590]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.34.37:925][594]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.34.37:925][594]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.37:925][594]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.34.37:925][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.37:925][594]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.34.47:082][ 72]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.47:082][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.47:082][ 72]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.34.47:124][ 74]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.34.47:124][ 74]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.47:124][ 74]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.34.47:124][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.47:124][ 74]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.34.50:644][259]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.50:644][259]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.50:644][259]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.34.51:682][296]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.51:682][296]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.51:682][296]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.51:682][296]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.34.51:766][298]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.34.51:766][298]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.51:766][298]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.34.51:766][298]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.51:766][298]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.34.57:648][614]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.57:648][614]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.57:648][614]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.34.57:680][616]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.34.57:680][616]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.34.57:680][616]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.34.57:680][616]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.57:680][616]MaterialEditorStats: Shader Count: 2
+[2023.03.12-20.34.59:603][717]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.34.59:603][717]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.34.59:603][717]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.35.00:891][759]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.00:891][759]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.00:891][759]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.00:891][759]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.35.00:997][763]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.00:997][763]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.00:997][763]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.35.00:997][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.00:997][763]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.35.05:344][991]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.05:344][991]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.05:344][991]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.35.06:455][ 27]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.06:455][ 27]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.06:455][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.06:455][ 27]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.35.06:561][ 31]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.06:561][ 31]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.06:561][ 31]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.35.06:561][ 31]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.06:561][ 31]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.35.08:641][137]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.08:641][137]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.08:641][137]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.35.09:830][179]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.09:830][179]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.09:830][179]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.09:830][179]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.35.09:906][182]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.09:906][182]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.09:906][182]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.35.09:906][182]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.09:906][182]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.35.12:323][303]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.12:323][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.12:323][303]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.35.13:511][346]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.13:511][346]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.13:511][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.35.13:511][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.13:511][346]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.35.14:118][373]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.12-20.35.14:131][373]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.35.14:131][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.14:131][373]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.35.14:163][375]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.14:163][375]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.14:163][375]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.35.14:163][375]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.14:163][375]MaterialEditorStats: Shader Count: 2
+[2023.03.12-20.35.18:602][623]LogMaterialEditor: Saving and Compiling material GoodFood
+[2023.03.12-20.35.19:263][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.12-20.35.19:850][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.03.12-20.35.19:858][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.12-20.35.21:916][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoodFood" FILE="../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/GoodFood.uasset" SILENT=true
+[2023.03.12-20.35.21:918][623]LogSavePackage: Moving output files for package: /Game/GoodFood
+[2023.03.12-20.35.21:918][623]LogSavePackage: Moving '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/GoodFood89F4EE104EFE67E51A1DA7817AB6282E.tmp' to '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/GoodFood.uasset'
+[2023.03.12-20.35.21:927][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.06 sec (total: 6.23 sec)
+[2023.03.12-20.35.21:930][623]AssetCheck: New page: Asset Save: GoodFood
+[2023.03.12-20.35.21:930][623]LogContentValidation: Display: Validating /Script/Engine.Material /Game/GoodFood.GoodFood
+[2023.03.12-20.35.21:933][623]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.35.21:933][623]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.35.21:934][623]MaterialEditorStats: MaxSampler: 260 instructions
+[2023.03.12-20.35.21:934][623]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.12-20.35.21:934][623]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.35.21:934][623]MaterialEditorStats: Shader Count: 16
+[2023.03.12-20.35.23:115][677]LogSlate: Window 'GoodFood' being destroyed
+[2023.03.12-20.35.23:133][677]LogSlate: Window 'GoodFood' being destroyed
+[2023.03.12-20.35.23:176][677]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-20.35.23:176][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-20.35.34:842][362]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.35.34:842][362]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.35.34:843][362]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_23
+[2023.03.12-20.35.34:843][362]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_23
+[2023.03.12-20.36.26:233][363]Cmd: DELETE
+[2023.03.12-20.36.26:233][363]Cmd: ACTOR DELETE
+[2023.03.12-20.36.26:252][363]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.12-20.36.26:263][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.12-20.36.26:266][363]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2023.03.12-20.36.32:188][711]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.36.32:188][711]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.36.32:189][711]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_24
+[2023.03.12-20.36.32:190][711]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_24
+[2023.03.12-20.38.07:559][316]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.03.12-20.38.07:570][316]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.03.12-20.38.07:582][317]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.03.12-20.38.14:996][760]LogContentBrowser: Attempting asset rename: NewMaterial -> BadFood
+[2023.03.12-20.38.14:997][760]LogContentBrowser: End creating deferred item NewMaterial
+[2023.03.12-20.38.16:452][844]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/BadFood.BadFood
+[2023.03.12-20.38.16:456][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.12-20.38.16:602][844]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.16:602][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.16:602][844]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.16:608][844]LogViewport: Scene viewport resized to 389x306, mode Windowed.
+[2023.03.12-20.38.17:704][885]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Total job queries 790, among them cache hits 178 (22.53%)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Tracking 609 distinct input hashes that result in 326 distinct outputs (53.53%)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: RAM used: 3.93 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.24%
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Shaders Compiled: 500
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Jobs assigned 503, completed 500 (99.40%)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Average time worker was idle: 167.06 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Time job spent in pending queue: average 5.06 s, longest 22.77 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Job execution time: average 3.31 s, max 8.44 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Job life time (pending + execution): average 8.39 s, max 23.39
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 71.50 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Jobs were issued in 312 batches (only local compilation was used), average 1.61 jobs/batch
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Average processing rate: 6.99 jobs/sec
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Total thread time: 356.33 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Total thread preprocess time: 22.64 s
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Percentage time preprocessing: 6.35%
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Effective parallelization: 4.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    4 times, average 0.99 sec, max 1.21 sec, min 0.85 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 0.96 sec, max 1.22 sec, min 0.79 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.70% of total time (compiled   65 times, average 0.86 sec, max 1.29 sec, min 0.48 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.82% of total time (compiled   65 times, average 0.81 sec, max 1.09 sec, min 0.46 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.64% of total time (compiled   55 times, average 0.69 sec, max 0.98 sec, min 0.41 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.76% of total time (compiled   56 times, average 0.49 sec, max 0.76 sec, min 0.27 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.30% of total time (compiled   32 times, average 0.81 sec, max 1.29 sec, min 0.31 sec)
+[2023.03.12-20.38.17:705][885]LogShaderCompilers: Display: ================================================
+[2023.03.12-20.38.18:033][897]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.18:033][897]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.18:033][897]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.18:033][897]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.38.18:139][901]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.38.18:139][901]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.18:139][901]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.18:139][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.18:139][901]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.20:224][  8]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.20:224][  8]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.20:225][  8]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.20:268][ 10]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.38.20:268][ 10]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.20:268][ 10]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.20:268][ 10]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.20:268][ 10]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.23:957][192]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.23:957][192]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.23:957][192]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.25:047][231]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.25:047][231]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.25:047][231]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.25:047][231]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.38.25:154][235]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.38.25:154][235]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.25:154][235]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.25:154][235]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.25:154][235]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.30:282][477]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.30:282][477]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.30:282][477]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.30:321][479]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.03.12-20.38.30:321][479]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.30:321][479]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.30:321][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.30:321][479]MaterialEditorStats: Shader Count: 2
+[2023.03.12-20.38.32:548][583]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.32:548][583]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.32:548][583]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.33:819][619]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.33:819][619]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.33:819][619]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.33:819][619]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.38.33:891][621]MaterialEditorStats: Base pass shader: 213 instructions
+[2023.03.12-20.38.33:891][621]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.33:891][621]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.33:891][621]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.33:891][621]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.36:805][746]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.36:805][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.36:805][746]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.38:199][785]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.38:199][785]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.38:199][785]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.38:199][785]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.38.38:294][788]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.03.12-20.38.38:294][788]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.38:294][788]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.38:294][788]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.38:294][788]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.39:631][842]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.39:631][842]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.39:631][842]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.41:074][882]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.41:074][882]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.41:074][882]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.41:074][882]MaterialEditorStats: Shader Count: 3
+[2023.03.12-20.38.41:173][885]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.03.12-20.38.41:173][885]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.41:173][885]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.41:173][885]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.41:173][885]MaterialEditorStats: Shader Count: 4
+[2023.03.12-20.38.41:807][908]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.12-20.38.41:820][908]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.12-20.38.41:820][908]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.41:820][908]MaterialEditorStats: Shader Count: 0
+[2023.03.12-20.38.41:856][910]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.03.12-20.38.41:856][910]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.41:856][910]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.12-20.38.41:856][910]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.41:856][910]MaterialEditorStats: Shader Count: 2
+[2023.03.12-20.38.44:030][ 13]LogMaterialEditor: Saving and Compiling material BadFood
+[2023.03.12-20.38.44:832][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.12-20.38.45:517][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.12-20.38.45:528][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.12-20.38.47:627][ 13]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.12-20.38.48:051][ 13]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003000s (0.427468s overbudget)
+[2023.03.12-20.38.48:082][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BadFood" FILE="../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/BadFood.uasset" SILENT=true
+[2023.03.12-20.38.48:084][ 13]LogSavePackage: Moving output files for package: /Game/BadFood
+[2023.03.12-20.38.48:084][ 13]LogSavePackage: Moving '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/BadFood4660C17B4C6939B657CC62B1E00616E0.tmp' to '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/BadFood.uasset'
+[2023.03.12-20.38.48:096][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.56 sec (total: 8.80 sec)
+[2023.03.12-20.38.48:099][ 13]AssetCheck: New page: Asset Save: BadFood
+[2023.03.12-20.38.48:099][ 13]LogContentValidation: Display: Validating /Script/Engine.Material /Game/BadFood.BadFood
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: MaxSampler: 260 instructions
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.12-20.38.48:103][ 13]MaterialEditorStats: Shader Count: 16
+[2023.03.12-20.38.49:258][ 60]LogSlate: Window 'BadFood' being destroyed
+[2023.03.12-20.38.49:285][ 60]LogSlate: Window 'BadFood' being destroyed
+[2023.03.12-20.38.49:292][ 60]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-20.38.49:292][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-20.38.54:434][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.38.54:434][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.03.12-20.38.54:436][358]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_25
+[2023.03.12-20.38.54:436][358]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_25
+[2023.03.12-20.39.25:760][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.12-20.39.25:820][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.12-20.39.25:830][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.03.12-20.39.25:837][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_5 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:842][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_6 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:848][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_9 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:853][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_10 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:858][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_18 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:862][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_19 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:865][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:869][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:874][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_23 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:878][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_25 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.25:881][195]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_26 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-20.39.26:425][195]LogSavePackage: Moving output files for package: /Game/Levels/Level_1
+[2023.03.12-20.39.26:426][195]LogSavePackage: Moving '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/Level_12B512202414CCB8872CFE4B810EFD9C4.tmp' to '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Content/Levels/Level_1.umap'
+[2023.03.12-20.39.26:440][195]LogFileHelpers: Saving map 'Level_1' took 0.621
+[2023.03.12-20.39.26:447][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 686 ms (total: 9.49 sec)
+[2023.03.12-20.39.26:455][195]AssetCheck: New page: Asset Save: Level_1
+[2023.03.12-20.39.26:455][195]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_1.Level_1
