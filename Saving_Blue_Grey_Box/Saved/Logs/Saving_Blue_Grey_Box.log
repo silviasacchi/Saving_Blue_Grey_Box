@@ -1525,3 +1525,120 @@ Recommended: 516.25
 [2023.03.12-18.54.14:595][369]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_25 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
 [2023.03.12-18.54.14:596][369]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
 [2023.03.12-18.54.14:599][369]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-18.59.20:272][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.12-18.59.20:281][916]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_21 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-18.59.20:287][916]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_22 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-18.59.20:293][916]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_25 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-18.59.20:298][916]LogTexture: Display: Building textures: /Game/Levels/Level_1.Level_1:PersistentLevel.Landscape_0.Heightmap_26 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.12-18.59.20:784][916]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Level_1_Auto1
+[2023.03.12-18.59.20:784][916]LogSavePackage: Moving '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/Level_1_Auto1BEB8CC6D4ED78745ED229CA02E02E5CC.tmp' to '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/Autosaves/Game/Levels/Level_1_Auto1.umap'
+[2023.03.12-18.59.20:792][916]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_1' took 0.530
+[2023.03.12-18.59.20:792][916]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.530
+[2023.03.12-19.09.49:792][770]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: ================================================
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Total job queries 453, among them cache hits 2 (0.44%)
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Tracking 448 distinct input hashes that result in 241 distinct outputs (53.79%)
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: RAM used: 2.93 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.18%
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Shaders Compiled: 339
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Jobs assigned 342, completed 339 (99.12%)
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Average time worker was idle: 33.47 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Time job spent in pending queue: average 7.38 s, longest 22.77 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Job execution time: average 4.42 s, max 8.44 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Job life time (pending + execution): average 11.86 s, max 23.39
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 34.32 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Jobs were issued in 151 batches (only local compilation was used), average 2.26 jobs/batch
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Average processing rate: 9.88 jobs/sec
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Total thread time: 239.84 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Total thread preprocess time: 15.05 s
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Percentage time preprocessing: 6.28%
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Effective parallelization: 6.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-19.09.50:811][830]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.95 sec, max 1.00 sec, min 0.90 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 0.93 sec, max 1.04 sec, min 0.82 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.59% of total time (compiled   30 times, average 0.85 sec, max 1.29 sec, min 0.54 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.49% of total time (compiled   30 times, average 0.84 sec, max 1.02 sec, min 0.62 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.43% of total time (compiled   30 times, average 0.83 sec, max 0.98 sec, min 0.62 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.85% of total time (compiled   30 times, average 0.71 sec, max 0.86 sec, min 0.57 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.82% of total time (compiled   26 times, average 0.81 sec, max 0.97 sec, min 0.62 sec)
+[2023.03.12-19.09.50:812][830]LogShaderCompilers: Display: ================================================
+[2023.03.12-19.10.08:302][601]Cmd: TRANSACTION UNDO
+[2023.03.12-19.10.08:302][601]LogEditorTransaction: Undo Edit Landscape Material
+[2023.03.12-19.11.03:300][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.12-19.11.03:838][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Level_1_Auto2
+[2023.03.12-19.11.03:839][146]LogSavePackage: Moving '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/Level_1_Auto2FE83CDBC460B6ADA26D93A851C7997CD.tmp' to '../../../../../../GitProjects/Saving_Blue_Repo/Saving_Blue_Grey_Box/Saved/Autosaves/Game/Levels/Level_1_Auto2.umap'
+[2023.03.12-19.11.03:846][146]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_1' took 0.560
+[2023.03.12-19.11.03:846][146]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.560
+[2023.03.12-19.16.54:408][601]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.03.12-19.16.54:409][601]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.03.12-19.16.54:410][601]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_0
+[2023.03.12-19.16.54:413][601]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/Level_1.Level_1:PersistentLevel.StaticMeshActor_0
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: ================================================
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Total job queries 508, among them cache hits 10 (1.97%)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Tracking 497 distinct input hashes that result in 266 distinct outputs (53.52%)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: RAM used: 3.24 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.20%
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Shaders Compiled: 388
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Jobs assigned 389, completed 388 (99.74%)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Average time worker was idle: 56.69 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Time job spent in pending queue: average 6.50 s, longest 22.77 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Job execution time: average 3.96 s, max 8.44 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Job life time (pending + execution): average 10.48 s, max 23.39
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 43.97 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Jobs were issued in 198 batches (only local compilation was used), average 1.96 jobs/batch
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Average processing rate: 8.83 jobs/sec
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Total thread time: 269.30 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Total thread preprocess time: 16.98 s
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Percentage time preprocessing: 6.30%
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Effective parallelization: 6.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.95 sec, max 1.00 sec, min 0.90 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 0.93 sec, max 1.04 sec, min 0.82 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.68% of total time (compiled   38 times, average 0.83 sec, max 1.27 sec, min 0.53 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.59% of total time (compiled   39 times, average 0.80 sec, max 1.09 sec, min 0.46 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.69% of total time (compiled   39 times, average 0.67 sec, max 0.98 sec, min 0.41 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.43% of total time (compiled   30 times, average 0.85 sec, max 1.29 sec, min 0.54 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.88% of total time (compiled   30 times, average 0.71 sec, max 0.86 sec, min 0.57 sec)
+[2023.03.12-19.16.55:471][653]LogShaderCompilers: Display: ================================================
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: ================================================
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Total job queries 512, among them cache hits 10 (1.95%)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Tracking 499 distinct input hashes that result in 268 distinct outputs (53.71%)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: RAM used: 3.25 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.20%
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Shaders Compiled: 390
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Jobs assigned 393, completed 390 (99.24%)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Average time worker was idle: 59.99 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Time job spent in pending queue: average 6.43 s, longest 22.77 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Job execution time: average 3.95 s, max 8.44 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Job life time (pending + execution): average 10.43 s, max 23.39
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 45.02 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Jobs were issued in 202 batches (only local compilation was used), average 1.95 jobs/batch
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Average processing rate: 8.66 jobs/sec
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Total thread time: 270.62 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Total thread preprocess time: 17.11 s
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Percentage time preprocessing: 6.32%
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Effective parallelization: 6.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.05 sec, max 1.10 sec, min 1.00 sec)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.99 sec)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 0.98 sec, max 1.13 sec, min 0.83 sec)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.95 sec, max 1.00 sec, min 0.90 sec)
+[2023.03.12-19.20.33:202][618]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 0.93 sec, max 1.04 sec, min 0.82 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.91% of total time (compiled   39 times, average 0.83 sec, max 1.27 sec, min 0.53 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.54% of total time (compiled   39 times, average 0.80 sec, max 1.09 sec, min 0.46 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.64% of total time (compiled   39 times, average 0.67 sec, max 0.98 sec, min 0.41 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.38% of total time (compiled   30 times, average 0.85 sec, max 1.29 sec, min 0.54 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.84% of total time (compiled   30 times, average 0.71 sec, max 0.86 sec, min 0.57 sec)
+[2023.03.12-19.20.33:203][618]LogShaderCompilers: Display: ================================================
